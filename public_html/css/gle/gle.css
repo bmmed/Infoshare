@@ -1,0 +1,269 @@
+body
+{
+	background-color: #fff;
+	margin: 0px;
+	padding: 0px;
+	
+
+}
+.contenaire_user img {
+
+    border-radius: 50px;
+
+}
+
+
+@font-face {
+	font-family:"Sverige Script Demo";
+	src: url(../../font/SverigeScriptClean_Demo.ttf);
+}
+@font-face {
+	font-family:"Caviar Dreams";
+	src: url(../../font/CaviarDreams.ttf);
+}
+
+
+
+.clear
+{
+	clear: both;
+}
+
+.clear_sup
+{
+	clear: both;
+}
+
+.contenaire_pagination
+{
+	margin: auto;
+	text-align: center;
+}
+.contenaire_milieu
+{
+	padding-top: 20px;
+}
+
+.ligne_fin {
+    margin-top: 18px;
+    border: 0;
+    height: 1px;
+    background-color: #fff;
+	background-image: linear-gradient(left, rgba(0,0,0,0), rgb(37, 183, 211), rgba(0,0,0,0));
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgb(37, 183, 211), rgba(0,0,0,0));
+	background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgb(37, 183, 211), rgba(0,0,0,0));
+}
+.ligne_fin_footer
+{
+	    margin-top: 5px;
+    border: 0;
+    height: 1px;
+    background-color: #fff;
+    background-image: -webkit-linear-gradient(left, rgb(8, 24, 43), rgb(69, 217, 253), rgb(8, 24, 43));
+}
+
+/********************************** footer ***************************************/
+footer
+{
+	text-align: center;
+	text-align: -webkit-center;
+	text-align:-moz-center;
+	position: relative;
+
+}
+.footer_content
+{
+	width: 100%;
+    position: absolute;
+    bottom: 5px;
+
+}
+
+.footer_content .btn_top
+{
+	margin-bottom: 15px;
+	width:40px;
+	border-radius: 50px;
+
+}
+.footer_content .btn_top:hover
+{
+    box-shadow: 0 0 20px #EE2560;
+	background-color:#EE2560;
+	  transition: all 1000ms cubic-bezier(0, 0.99, 1, 1);
+	margin-bottom: 30px;
+}
+
+
+.contact 
+{
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	flex-wrap: wrap;
+	
+	padding-bottom: 6px;
+}
+.contact a
+{
+	width: 19%;
+}
+footer h3
+{
+	color: #f1f1f1;
+	font-size: 0.93em;
+	font-weight: 100;
+	padding: 7px 0 3px 0 ;
+	margin: 0;
+	font-family: "Caviar Dreams";
+
+}  
+
+
+.contact img
+{
+    width: 37%;
+    border-radius: 66px;
+	
+}
+
+
+
+/********* fin footer **********/
+
+.champ_erreur
+{
+	border: 2px solid red;
+}
+
+
+h3[class="ph_erreur"]
+{
+	width: 100%;
+	padding: 11px 0;
+	margin: 0px;
+	color: #FF9595;
+	background-color: rgba(117, 218, 188, 0.62);
+	
+	text-align: center;
+	text-align: -webkit-center;
+	font-size: 1em;
+	font-family: "Caviar Dreams";
+	text-align: -moz-center;
+
+}
+
+.ph_ok
+{
+	width: 100%;
+	padding: 11px 0;
+	margin: 0px;
+	color: #E6FFEC;
+	background-color: rgba(117, 218, 188, 0.62);
+	text-align: -webkit-center;
+	font-size: 1em;
+	font-family: "Caviar Dreams";
+
+}
+
+
+
+
+
+.pagination {
+  display: inline-block;
+  padding-left: 0;
+  margin: 20px 0;
+  border-radius: 4px;
+}
+.pagination > li {
+  display: inline;
+}
+.pagination > li > a,
+.pagination > li > span {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  margin-left: -1px;
+  line-height: 1.42857143;
+  color: #337ab7;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+.pagination > li:first-child > a,
+.pagination > li:first-child > span {
+  margin-left: 0;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  z-index: 2;
+  color: #23527c;
+  background-color: #eee;
+  border-color: #ddd;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  z-index: 3;
+  color: #fff;
+  cursor: default;
+  background-color: #337ab7;
+  border-color: #337ab7;
+}
+.pagination > .disabled > span,
+.pagination > .disabled > span:hover,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus {
+  color: #777;
+  cursor: not-allowed;
+  background-color: #fff;
+  border-color: #ddd;
+}
+.pagination-lg > li > a,
+.pagination-lg > li > span {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+}
+.pagination-lg > li:first-child > a,
+.pagination-lg > li:first-child > span {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.pagination-lg > li:last-child > a,
+.pagination-lg > li:last-child > span {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.pagination-sm > li > a,
+.pagination-sm > li > span {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.pagination-sm > li:first-child > a,
+.pagination-sm > li:first-child > span {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.pagination-sm > li:last-child > a,
+.pagination-sm > li:last-child > span {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}

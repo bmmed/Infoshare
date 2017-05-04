@@ -1,0 +1,88 @@
+.box_cnx
+{	
+	width: 350px;
+	margin: auto;
+	padding: 20px 0;
+
+}
+
+.box_cnx .champ
+{
+
+  height: 35px;
+  font-size: 1em;
+
+}
+
+.slide_cnx {
+    padding: 15px 45px;
+    border: 0;
+    border-radius: 8px;
+    background-color: #6B6B6B;
+    color: white;
+    font-size: 1.15em;
+    font-family: "Caviar Dreams";
+}
+
+.box_cnx .btn_cnx, .box_cnx .btn_insc {
+
+    font-size: 1.1em;
+ 
+}
+
+
+
+
+
+
+.contenaire_pub
+{
+	width: 98%;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+.pub_item
+{
+	width: 100%;
+	display: flex;
+	justify-content:space-between;
+	flex-wrap: wrap;
+	margin: auto
+}
+.contenaire_pub .txt_pub
+{
+    width: 60%;
+    margin: auto;
+    vertical-align: middle;
+    text-align: justify;
+}
+
+.contenaire_pub h2
+{
+    margin: 0;
+    font-size: 1.15em;
+    color: #737373;
+	text-align: center;
+		font-family: "Caviar Dreams";
+}
+
+.contenaire_pub p
+{
+    font-size: 0.75em;
+    color: #737373;
+	font-family: "Caviar Dreams";
+    font-weight: bold;
+}
+
+.contenaire_pub .img_pub
+{
+    width: 75%;
+    margin: auto;
+}
+
+.contenaire_pub img
+{
+	width: 100%;
+	    border-radius: 5px;
+}

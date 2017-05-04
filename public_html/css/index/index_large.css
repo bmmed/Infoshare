@@ -1,0 +1,72 @@
+
+
+
+
+
+.box_cnx
+{
+	
+	
+	width: 450px;
+	margin: auto;
+	padding: 20px 0;
+	
+
+}
+
+
+
+
+
+
+
+.contenaire_pub
+{
+	width: 95%;
+	margin: auto;
+	margin-bottom: 150px;
+}
+
+.pub_item
+{
+	width: 100%;
+	display: flex;
+	justify-content:space-around;
+	flex-wrap: wrap;
+	margin: auto
+}
+.contenaire_pub .txt_pub
+{
+	width: 35%;
+	vertical-align:middle;
+	text-align: center;
+	
+}
+
+.contenaire_pub h2
+{
+	    margin: 0;
+    padding-left: 15px;
+    font-size: 1.8em;
+    color: #737373;
+			font-family: "Caviar Dreams";
+}
+
+.contenaire_pub p
+{
+	    font-size: 1.1em;
+    color: #737373;
+		font-family: "Caviar Dreams";
+    font-weight: bold;
+}
+
+.contenaire_pub .img_pub
+{
+	width: 45%;
+}
+
+.contenaire_pub img
+{
+	width: 100%;
+	border-radius: 7px;
+}

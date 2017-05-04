@@ -1,0 +1,106 @@
+
+
+
+/*********************************************************************/
+.present
+{
+    width: 96%;
+    display: inline-block;
+    margin: 0;
+    font-size: 0.8em;
+    color: #08182B;
+    padding-top: 15px;
+    text-align: left;
+    font-family: "Caviar Dreams";
+    font-weight: bold;
+
+}
+
+.contenaire_milieu
+{
+	text-align: -webkit-center;
+	text-align:-moz-center;
+}
+
+.milieu
+{
+	width: 100%;
+	display: flex;
+	justify-content:space-around;
+	flex-wrap: wrap;
+	margin-top: 25px;
+	
+}
+
+.article
+{
+    width: 96%;
+    overflow: hidden;
+    padding-bottom: 15px;
+	
+}
+
+.article .img_article
+{
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.article h2
+{
+    width: 80%;
+    display: inline-block;
+    text-overflow: initial;
+    margin: 6px 0;
+    text-align: left;
+    font-size: 0.85em;
+    color: #08182B;
+    font-family: "Caviar Dreams";
+}
+
+.article p
+{
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    padding-left: 10px;
+    font-size: 0.8em;
+    color: #666767;
+    padding-top: 15px;
+    text-align: left;
+	
+}
+
+.article a
+{
+    width: 90%;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+    padding-right: 13px;
+    font-size: 0.85em;
+    color: #45D9FD;
+    padding-top: 15px;
+    text-align: right;
+    text-decoration: none;
+}
+
+.btn_plus_inf
+{
+	width: 32px;
+	float: right;
+	vertical-align: middle;
+	margin-right: 8px;
+}
+
+.detail_article
+{
+	
+}
+
+
+
+
+

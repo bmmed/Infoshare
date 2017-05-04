@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>🎄🎄 Noël Arrive 🎄🎄</title>
+    <link rel="shortcut icon" href="./img/label.png">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link type="text/css" rel="stylesheet" href="css/calendar.css">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+
+
+
+
+
+</head>
+<body>
+<header>
+    <div class="header_icon">
+        <img src="img/logo.png">
+    </div>
+
+</header>
+
+<div class="top_bar">
+    <div class="top_left">
+        <img src="img/back_top.jpg">
+    </div>
+
+    <div class="top_right">
+        <div class="top_ph_gif">
+        <div class="ph1">
+            <div class="top_ph_gif_item">
+                <img src="img/gif/n.gif">
+                <img src="img/gif/o.gif">
+                <img src="img/gif/e.gif">
+                <img src="img/gif/l.gif">
+            </div>
+
+            <div class="top_ph_gif_item">
+                <img src="img/gif/a.gif">
+                <img src="img/gif/r.gif">
+                <img src="img/gif/r.gif">
+                <img src="img/gif/i.gif">
+                <img src="img/gif/v.gif">
+                <img src="img/gif/e.gif">
+            </div>
+        </div>
+            <div class="top_ph_gif_item ph2">
+                <img src="img/gif/d.gif">
+                <img src="img/gif/a.gif">
+                <img src="img/gif/n.gif">
+                <img src="img/gif/s.gif">
+            </div>
+
+        </div>
+
+        <div id="clock"></div>
+    </div>
+
+
+</div>
+<div class="separation_bar">
+    <h2>2016</h2>
+</div>
+
+<div class="calendar_body"  ng-app="myApp" ng-controller="AppCtrl">
+
+
+    <div ng-repeat="n in data"  class="date_item" ng-class="{hide_day : (n.day > today), show_day : (n.day <= today)}" >
+
+        <div class="date_top">
+            <img src="img/day/{{n.day}}.png">
+            <h2>{{n.day}} DEC.</h2>
+
+        </div>
+        <div class="date_bottom">
+            <h2>Père Noël arrive dans {{24 - n.day}} jours </h2>
+            <p>{{n.content}}</p>
+            <h3 class="auth">{{n.author}}</h3>
+        </div>
+
+    </div>
+
+
+</div>
+
+<div class="footer">
+    <img src="img/footer.svg">
+</div>
+
+<script src="js/gle.js"></script>
+<script src="js/angular.min.js"></script>
+<script src="js/controller/fich_ctr.js"></script>
+<script src="js/service/fich_serv.js"></script>
+</body>
+</html>

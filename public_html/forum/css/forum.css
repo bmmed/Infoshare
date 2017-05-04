@@ -1,0 +1,656 @@
+
+.ajout_msg_contenair
+{
+	width: 100%;
+	    background-color: rgba(199, 199, 199, 0.14);
+	text-align: center;
+	    text-align: -webkit-center;
+}
+.msg_info img {
+
+    border-radius: 50px;
+}
+
+.ajout_msg_contenair h2
+{
+    color: #EE2560;;
+    font-size: 1.4em;
+    font-family: "Caviar Dreams";
+    font-weight: 100;
+	
+}
+
+
+.ajout_msg_contenair .msg_form
+{
+	width: 90%;
+	text-align: center;
+	
+}
+
+
+.ajout_msg_contenair .msg_form .ajt_cham_titre ,.ajout_msg_contenair .msg_form .message
+{
+    display: inline-block;
+    width: 90%;
+    padding: 6px 12px;
+    margin: 7px;
+    font-size: 1.1em;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+
+.ajout_msg_contenair .msg_form .ajt_cham_titre:focus ,.ajout_msg_contenair .msg_form .message:focus ,.reponce:focus
+{
+		border-color: #66afe9;
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+.ajout_msg_contenair .msg_form .btn_publier
+{
+    padding: 8px 40px;
+    border: 0;
+    border-radius: 8px;
+    background-color: #2A81BA;
+    color: white;
+    font-size: 1em;
+    font-family: "Caviar Dreams";
+    display: block;
+    margin: auto;
+}
+
+
+
+
+
+
+.contenair_forum_rech
+{
+	text-align: right;
+	text-align: -webkit-right;
+	margin: 5px 20px;
+
+}
+
+
+.contenair_forum_rech .champ_rech
+{
+	display: inline-block;
+	vertical-align: middle;
+	width: 180px;
+	height: 33px;
+	padding: 0 12px;
+	margin-right: -4px;
+	margin-left: 5px;
+	font-size: 1em;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 6px 0 0 6px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.contenair_forum_rech .champ_rech:focus
+{
+	border-color: #66afe9;
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+
+.contenair_forum_rech .btn_rech
+{
+	height: 35px;
+	padding: 0 13px;
+	border: 0;
+	border-radius: 0 6px 6px 0;
+	background-color: #2A81BA;
+	color: white;
+	font-size: 0.8em;
+	font-family: "Caviar Dreams";
+	vertical-align: middle;
+}
+
+
+.contenair_msg
+{
+	width: 90%;
+	margin: auto;
+
+}
+.msg_item {
+    width: 100%;
+    border-radius: 5px;
+}
+.msg_info {
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px 0;
+    width: 20%;
+    text-align: center;
+    text-align: -webkit-center;
+	text-align: -moz-center;
+}
+.msg_info img
+{
+	width: 65px;
+	margin: 0;
+	display: block;
+}
+
+.msg_info h2
+{
+	margin: 0;
+	display: block;
+	color: #5EC3D6;
+	font-size: 1.25em;
+	text-decoration: none;
+	font-family: "Caviar Dreams";
+	font-weight: bolder;
+}
+
+
+
+
+.msg {
+    width: 75%;
+    margin-top: 10px;
+    display: inline-block;
+}
+.msg_titre
+{
+	color: #676767;
+	font-size: 1.3em;
+	    font-family: "Caviar Dreams";
+}
+.msg_date
+{
+	color: #818181;
+	font-size: 0.85em;
+	    font-family: "Caviar Dreams";
+}
+.detail_msg
+{
+	padding-left: 40px;
+}
+.msg_cont {
+    color: #424242;
+    font-size: 1em;
+    margin: 0;
+    text-align: justify;
+    font-family: "Caviar Dreams";
+    font-weight: bold;
+}
+.nbr_reponce
+{
+	display: block;
+	text-align: right;
+}
+.nbr_reponce button
+{
+	padding: 6px 9px;
+	border: 0;
+	border-radius: 8px;
+	background-color: #29CBEA;
+	color: white;
+	font-size: 1em;
+	font-weight: 700;
+	margin: 7px 0;
+}
+.btn_rep
+{
+	border: 0;
+	border-radius: 8px;
+	background-color: #2A81BA;
+	font-family: "Caviar Dreams";
+	padding: 9px 28px;
+	text-align: center;
+	margin: auto;
+}
+.btn_rep h2
+{
+	margin: 0;
+	color: #FFFFFF;
+	font-size: 0.9em;
+}
+.rep_form
+{
+	text-align: center;
+	text-align: -webkit-center;
+	text-align: -moz-center;
+}
+
+.reponce
+{
+	display: inline-block;
+	width: 98%;
+	padding: 6px 12px;
+	margin: 5px 0;
+	font-size: 1.1em;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.btn_repondre
+{
+	padding: 9px 20px;
+	border: 0;
+	border-radius: 8px;
+	background-color: #2A81BA;
+	color: white;
+	font-size: 1em;
+	font-family: "Caviar Dreams";
+	display: block;
+}
+
+@media (min-width:601px) and (max-width: 900px) /* pour medium */
+{ 
+/***************************************************/
+    .contenair_forum_rech {
+    text-align: right;
+    text-align: -webkit-right;
+		text-align: -moz-right;
+    margin: 5px 10px;
+}
+	.contenair_forum_rech .champ_rech {
+    display: inline-block;
+    vertical-align: middle;
+    width: 150px;
+    height: 29px;
+    padding: 0 12px;
+    margin-right: -4px;
+    margin-left: 5px;
+    font-size: 0.8em;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 6px 0 0 6px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+	.contenair_forum_rech .btn_rech {
+    height: 31px;
+    padding: 0 13px;
+    border: 0;
+    border-radius: 0 6px 6px 0;
+    background-color: #2A81BA;
+    color: white;
+    font-size: 0.7em;
+    font-family: "Caviar Dreams";
+    vertical-align: middle;
+}
+	
+	.ajout_msg_contenair h2 {
+    color: #EE2560;
+    font-size: 1.2em;
+    font-family: "Caviar Dreams";
+    font-weight: 100;
+}
+	
+	.ajout_msg_contenair .msg_form .ajt_cham_titre, .ajout_msg_contenair .msg_form .message {
+    display: inline-block;
+    width: 90%;
+    padding: 5px 13px;
+    margin: 7px;
+    font-size: 0.95em;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+	.ajout_msg_contenair .msg_form .btn_publier {
+    padding: 8px 32px;
+    border: 0;
+    border-radius: 8px;
+    background-color: #2A81BA;
+    color: white;
+    font-size: 0.9em;
+    font-family: "Caviar Dreams";
+    display: block;
+    margin: auto;
+}
+	
+	.contenair_msg {
+    width: 98%;
+    margin: auto;
+}
+	
+	.msg_item {
+    width: 100%;
+    border-radius: 5px;
+}
+	
+	.msg_info img {
+    width: 62px;
+    margin: 0;
+    display: block;
+}
+	.msg_info h2 {
+    margin: 0;
+    display: block;
+    color: #5EC3D6;
+    font-size: 1em;
+    text-decoration: none;
+    font-family: "Caviar Dreams";
+    font-weight: bolder;
+}
+.msg_titre {
+    color: #08182B;
+    font-size: 1em;
+    font-family: "Caviar Dreams";
+}
+	.msg_date {
+    color: #818181;
+    font-size: 0.65em;
+    font-family: "Caviar Dreams";
+}
+	
+	.msg_cont {
+    color: #424242;
+    font-size: 0.82em;
+    margin: 10px 0;
+    text-align: justify;
+}
+	.detail_msg {
+    padding-left: 5px;
+}
+	
+	
+	.nbr_reponce button {
+    padding: 6px 9px;
+    border: 0;
+    border-radius: 8px;
+    background-color: #29CBEA;
+    color: white;
+    font-size: 0.8em;
+    font-weight: 700;
+    margin: 7px 0;
+}
+	
+	.btn_rep h2 {
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 0.8em;
+}
+	
+	.btn_repondre {
+    padding: 8px 16px;
+    border: 0;
+    border-radius: 8px;
+    background-color: #2A81BA;
+    color: white;
+    font-size: 0.8em;
+    font-family: "Caviar Dreams";
+    display: block;
+}
+	
+	
+	
+	
+	
+    
+    
+    
+    
+    
+/***************************************************/
+}
+
+@media (min-width:100px) and (max-width: 600px) /* pour small*/
+{ 
+/***************************************************/
+   .contenair_forum_rech {
+    text-align: right;
+    text-align: -webkit-right;
+	   text-align: -moz-right;
+    margin: 0 5px;
+}
+	
+	.contenair_forum_rech .champ_rech {
+    display: inline-block;
+    vertical-align: middle;
+    width: 160px;
+    height: 30px;
+    padding: 0 12px;
+    margin-right: -4px;
+    margin-left: 5px;
+    font-size: 0.7em;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 6px 0 0 6px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+	
+	.contenair_forum_rech .btn_rech {
+    height: 32px;
+    padding: 0 9px;
+    border: 0;
+    border-radius: 0 6px 6px 0;
+    background-color: #2A81BA;
+    color: white;
+    font-size: 0.65em;
+    font-family: "Caviar Dreams";
+    vertical-align: middle;
+}
+	
+	.ajout_msg_contenair h2 {
+    color: #EE2560;
+    font-size: 1em;
+    font-family: "Caviar Dreams";
+    font-weight: 100;
+}
+	
+	.ajout_msg_contenair .msg_form {
+    width: 98%;
+    text-align: center;
+}
+	
+	.ajout_msg_contenair .msg_form .ajt_cham_titre, .ajout_msg_contenair .msg_form .message {
+    display: inline-block;
+    width: 90%;
+    padding: 6px 12px;
+    margin: 7px 0;
+    font-size: 0.8em;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+	
+	.ajout_msg_contenair .msg_form .btn_publier {
+    padding: 7px 21px;
+    border: 0;
+    border-radius: 8px;
+    background-color: #2A81BA;
+    color: white;
+    font-size: 0.8em;
+    font-family: "Caviar Dreams";
+    display: block;
+    margin: auto;
+}
+	
+	.contenair_msg {
+    width: 98%;
+    margin: auto;
+}
+	
+.msg_info {
+    display: block;
+    vertical-align: top;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    text-align: -webkit-center;
+	text-align: -moz-center;
+}
+	.msg_date {
+    color: #818181;
+    font-size: 0.65em;
+    font-family: "Caviar Dreams";
+}
+	
+	.msg_info img {
+    width: 55px;
+    margin: 0;
+    display: block;
+}
+	
+	.msg_info h2 {
+    margin: 0;
+    display: block;
+    color: #5EC3D6;
+    font-size: 0.9em;
+    text-decoration: none;
+    font-family: "Caviar Dreams";
+    font-weight: bolder;
+}
+	
+	
+.msg {
+    width: 100%;
+    margin-top: 0;
+    display: inline-block;
+    text-align: center;
+    text-align: -webkit-center;
+	text-align: -moz-center;
+}
+	
+	.msg_titre {
+    padding-left: 0;
+    margin: 7px 0;
+    color: #08182B;
+    font-size: 01em;
+}
+    
+    
+    .detail_msg {
+    padding: 0;
+    width: 98%;
+}
+	
+	.msg_cont {
+    color: #08182B;
+    font-size: 0.8em;
+    margin: 10px 0;
+    text-align: justify;
+}
+	
+	
+	.nbr_reponce button {
+    padding: 6px 9px;
+    border: 0;
+    border-radius: 8px;
+    background-color: #29CBEA;
+    color: white;
+    font-size: 0.8em;
+    font-weight: 700;
+    margin: 7px 0;
+}
+	
+	.btn_rep {
+    border: 0;
+    border-radius: 5px;
+    background-color: #2A81BA;
+    font-family: "Caviar Dreams";
+    padding: 8px 0;
+    text-align: center;
+    margin: auto;
+}
+	
+	.btn_rep h2 {
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 0.8em;
+}
+	
+	
+	.reponce {
+    display: inline-block;
+    width: 90%;
+    padding: 6px 12px;
+    margin: 5px 0;
+    font-size: 0.9em;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+	
+	.btn_repondre {
+    padding: 7px 16px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #2A81BA;
+    color: white;
+    font-size: 0.8em;
+    font-family: "Caviar Dreams";
+    display: block;
+}
+	
+	
+	
+    
+    
+/***************************************************/
+}

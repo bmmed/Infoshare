@@ -1,0 +1,141 @@
+.msg_info img {
+
+    border-radius: 50px;
+}
+.contenair_rep {
+    width: 90%;
+    margin: auto;
+}
+
+.contenair_rep .rep_item {
+    width: 90%;
+    margin-left: 5%;
+}
+.contenair_rep .rep_info {
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px 0;
+    width: 20%;
+    text-align: center;
+    text-align: -webkit-center;
+        word-wrap: break-word;
+}
+
+.contenair_rep .rep_info img
+{
+		width: 65px;
+	margin: 0;
+	display: block;
+	    border-radius: 50px;
+}
+
+.contenair_rep .rep_info h2
+{
+		margin: 0;
+	display: block;
+    color: #BA2A5E;
+    font-size: 1.25em;
+    text-decoration: none;
+    font-family: "Caviar Dreams";
+    font-weight: bolder;
+}
+
+
+
+
+
+.contenair_rep .rep {
+    width: 75%;
+    margin-top: 10px;
+    display: inline-block;
+}
+.rep_cont
+{
+	    color: #424242;
+    font-size: 1em;
+    margin: 10px 0;
+	    text-align: justify;
+}
+
+
+
+@media (min-width:601px) and (max-width: 900px) /* pour medium */
+{ 
+/***************************************************/
+    
+    .contenair_rep {
+    width: 100%;
+    margin: auto;
+}
+    .contenair_rep .rep_item {
+    width: 95%;
+    margin-left: 3%;
+}
+    .contenair_rep .rep_info h2 {
+    margin: 0;
+    display: block;
+    color: #BA2A5E;
+    font-size: 0.85em;
+    text-decoration: none;
+    font-family: "Caviar Dreams";
+    font-weight: bolder;
+}
+    
+    
+    
+    
+    
+/***************************************************/
+}
+
+@media (min-width:100px) and (max-width: 600px) /* pour small*/
+{ 
+/***************************************************/
+    .contenair_rep {
+    width: 98%;
+    margin: auto;
+}
+    .contenair_rep .rep_item {
+    width: 100%;
+    margin-left: 0;
+}
+    .contenair_rep .rep_info img {
+    width: 40px;
+    margin: 0;
+    display: block;
+    border-radius: 50px;
+}
+    .contenair_rep .rep_info h2 {
+    margin: 0;
+    display: block;
+    color: #BA2A5E;
+    font-size: 0.65em;
+    text-decoration: none;
+    font-family: "Caviar Dreams";
+    font-weight: bolder;
+}
+.contenair_rep .rep {
+    width: 76%;
+    padding-left: 3px;
+    margin-top: 0;
+    display: inline-block;
+}
+    .rep_cont {
+    color: #424242;
+    font-size: 0.85em;
+    margin: 6px 0;
+    text-align: justify;
+}
+    .msg_date {
+    color: #818181;
+    font-size: 0.55em;
+    margin: 5px 0;
+    font-family: "Caviar Dreams";
+}
+    
+    
+    
+    
+    
+/***************************************************/
+}

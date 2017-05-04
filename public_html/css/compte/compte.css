@@ -1,0 +1,327 @@
+
+.contenaire_sup
+{
+    width:100%;
+    height: auto;
+    background-color: rgba(241, 241, 241, 0.18);
+    float:none;
+    display: block;
+    position:inherit;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+.slide_sup
+{
+    text-align: right;
+    margin: 10px 20px 10px 0;
+}
+
+.slide_sup h2 
+{
+
+    margin: 0;
+    color: #E74C3C; 
+    font-size: 1.2em;
+    display: inline;
+}
+
+.slide_sup img
+{
+    width: 45px;
+    vertical-align: middle;
+}
+
+.box_sup
+{
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.box_sup h3
+{
+    display: inline-block;
+    color: #737373;
+    font-size: 1.1em;
+    text-decoration: none;
+    font-family: "Caviar Dreams";
+    padding-right: 40px;
+
+}
+
+.btn_sup_oui
+{    
+    border: 0;
+    border-radius: 8px;
+    background-color: #39B93D;
+    font-family: "Caviar Dreams";
+    padding: 2px 10px;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.btn_sup_non
+{    
+    border: 0;
+    border-radius: 8px;
+    background-color: #EA4C3C;
+    font-family: "Caviar Dreams";
+    padding: 2px 10px;
+    display: inline-block;
+}
+
+.btn_sup_oui h2
+{
+
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 0.9em;
+    display: inline;
+}
+
+.btn_sup_non h2
+{
+
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 0.9em;
+    display: inline;
+}
+
+.btn_sup_oui img , .btn_sup_non img
+{
+    width: 28px;
+    vertical-align: middle;
+}
+
+.box_sup_valide 
+{
+    margin-top: 20px;
+}
+.form_sup
+{
+    margin: 0;  
+}
+.box_sup_valide input
+{
+    display:inline-block;
+    width: 20%;
+    padding: 6px 12px;
+    margin: 7px;
+    font-size: 1.1em;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+
+
+.box_sup_valide input:focus
+{
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+@media (min-width:601px) and (max-width: 900px) /* pour medium */
+{ 
+/***************************************************/
+    
+    .slide_sup h2 {
+    margin: 0;
+    color: #E74C3C;
+    font-size: 1.05em;
+    display: inline;
+}
+    .box_sup {
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+    
+    .box_sup h3 {
+    display: inline-block;
+    color: #737373;
+    font-size: 0.95em;
+    text-decoration: none;
+    font-family: "Caviar Dreams";
+    padding-right: 10px;
+}
+    
+    
+    .btn_sup_oui {
+    border: 0;
+    border-radius: 6px;
+    background-color: #39B93D;
+    font-family: "Caviar Dreams";
+    padding: 2px 7px;
+    margin-right: 10px;
+    display: inline-block;
+}
+        .btn_sup_non {
+    border: 0;
+    border-radius: 6px;
+    background-color: #EA4C3C;
+    font-family: "Caviar Dreams";
+    padding: 2px 7px;
+    margin-right: 10px;
+    display: inline-block;
+}
+    
+    .btn_sup_oui img, .btn_sup_non img {
+    width: 24px;
+    vertical-align: middle;
+}
+    .btn_sup_oui h2 , .btn_sup_non h2 {
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 0.8em;
+    display: inline;
+}
+    
+    .slide_sup img {
+    width: 40px;
+    vertical-align: middle;
+}
+    .box_sup_valide {
+    margin-top: 7px;
+}
+
+.box_sup_valide input {
+    display: inline-block;
+    width: 200px;
+    padding: 4px 12px;
+    margin: 7px;
+    font-size: 0.9em;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+    
+    
+    
+    
+/***************************************************/
+}
+
+@media (min-width:100px) and (max-width: 600px) /* pour small*/
+{ 
+/***************************************************/
+    
+      
+    .slide_sup {
+    text-align: right;
+    margin: 8px 10px 8px 0;
+}
+    .slide_sup h2 {
+    margin: 0;
+    color: #E74C3C;
+    font-size: 0.9em;
+    display: inline;
+}
+
+    .box_sup {
+    margin: auto;
+    margin-top: 3px;
+    margin-left: 7px;
+        text-align: center;
+}
+    
+    .box_sup h3 {
+    color: #737373;
+    font-size: 0.8em;
+    display: block;
+    text-decoration: none;
+    font-family: "Caviar Dreams";
+    padding-right: 10px;
+}
+    
+    
+    .btn_sup_oui {
+    border: 0;
+    border-radius: 6px;
+    background-color: #39B93D;
+    font-family: "Caviar Dreams";
+    padding: 2px 7px;
+    margin-right: 10px;
+    display: inline-block;
+}
+        .btn_sup_non {
+    border: 0;
+    border-radius: 6px;
+    background-color: #EA4C3C;
+    font-family: "Caviar Dreams";
+    padding: 2px 7px;
+    margin-right: 10px;
+    display: inline-block;
+}
+    
+    .btn_sup_oui img, .btn_sup_non img {
+    width: 24px;
+    vertical-align: middle;
+}
+    .btn_sup_oui h2 , .btn_sup_non h2 {
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 0.8em;
+    display: inline;
+}
+    
+    .slide_sup img {
+    width: 30px;
+    vertical-align: middle;
+}
+    .box_sup_valide {
+    margin-top: 7px;
+}
+
+.box_sup_valide input {
+    display: inline-block;
+    width: 200px;
+    padding: 4px 12px;
+    margin: 7px;
+    font-size: 0.9em;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+/***************************************************/
+}
+
+
+
+

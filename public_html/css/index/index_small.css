@@ -1,0 +1,102 @@
+.contenaire_cnx {
+    width: 100%;
+    height: auto;
+    float: none;
+    display: block;
+    margin: auto;
+    position: inherit;
+    padding-top: 27px;
+    padding-bottom: 35px;
+    text-align: center;
+}
+
+
+.box_cnx
+{	
+	width: 98%;
+	margin: auto;
+	padding: 15px 0;
+
+}
+
+.box_cnx .champ
+{
+
+    height: 35px;
+    font-size: 1em;
+    width: 94%;
+
+}
+
+.slide_cnx {
+    padding: 7px 25px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #6B6B6B;
+    color: white;
+    font-size: 1.15em;
+    font-family: "Caviar Dreams";
+}
+
+.box_cnx .btn_cnx, .box_cnx .btn_insc {
+
+    font-size: 1.05em;
+ 
+}
+
+
+
+
+
+
+.contenaire_pub
+{
+	width: 98%;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+.pub_item
+{
+	width: 100%;
+	display: flex;
+	justify-content:space-between;
+	flex-wrap: wrap;
+	margin: auto
+}
+.contenaire_pub .txt_pub
+{
+    width: 87%;
+    margin: auto;
+    vertical-align: middle;
+    text-align: justify;
+}
+
+.contenaire_pub h2
+{
+    margin: 0;
+    font-size: 1.1em;
+    color: #737373;
+	text-align: center;
+		font-family: "Caviar Dreams";
+}
+
+.contenaire_pub p
+{
+    font-size: 0.68em;
+    color: #737373;
+	font-family: "Caviar Dreams";
+    font-weight: bold;
+}
+
+.contenaire_pub .img_pub
+{
+    width: 95%;
+    margin: auto;
+}
+
+.contenaire_pub img
+{
+	width: 100%;
+	    border-radius: 5px;
+}

@@ -1,0 +1,104 @@
+body
+{
+	background-image:url("../../img/texture03.png");
+ 
+}
+
+
+/******************** debut boite cnx ********************/
+.contenaire_cnx
+{
+	width:100%;
+	height: auto;
+	float:none;
+	display: block;
+	margin: auto;
+	position:inherit;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+	
+}
+
+.contenaire_cnx button
+{
+	
+}
+
+
+.box_cnx .champ
+{
+ display: block;
+  width: 94%;
+  height: 40px;
+ text-align: center;
+	margin: 7px 0;
+  font-size: 1.1em;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+	
+
+
+.box_cnx .champ:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+.slide_cnx
+{
+    padding: 17px 50px;
+    border: 0;
+    border-radius: 8px;
+    background-color: #6B6B6B;
+    color: white;
+    font-size: 1.2em;
+    font-family: "Caviar Dreams";
+}
+
+.box_cnx .btn_cnx , .box_cnx .btn_insc
+{
+    width: 94%;
+    padding: 9px;
+    margin: auto;
+    border: 0px;
+    background-color: rgba(255, 0, 0, 0);
+    color: white;
+    display: block;
+    font-size: 1.15em;
+    background-color: #8E8E8E;
+    text-decoration: none;
+    border-radius: 6px;
+    font-family: "Caviar Dreams";
+    margin-bottom: 8px;
+  -moz-text-align: center;
+}
+
+.box_cnx a
+{
+	text-decoration: none;
+}
+.box_cnx form
+{
+	border-bottom: 2px solid rgba(241, 241, 241, 0.66);
+	padding-bottom: 0px;
+	margin:0;
+ text-align: center;
+ 
+    text-align: -webkit-center;
+ text-align: -moz-center;
+}
+}
+/******************** fin  boite cnx ********************/
+

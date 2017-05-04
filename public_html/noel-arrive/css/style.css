@@ -1,0 +1,142 @@
+
+@font-face {
+    font-family:"font2";
+    src: url(../font/01.ttf);
+}
+@font-face {
+    font-family:"font3";
+    src: url(../font/03.otf);
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+  /*  background-image: url("../img/backg.png");*/
+    background-color: #EFFFE9;
+
+}
+
+
+header {
+    height: 72px;
+    width: 100%;
+    background-color: #fcfffa;
+    box-shadow: 2px 2px 2px 2px rgba(49, 49, 49, 0.18);
+}
+header img
+{
+    height: 60px;
+    padding: 5px 11px;
+}
+
+.top_bar
+{
+    color: white;
+    width: 100%;
+    height: auto;
+    background-color: #171731;
+    box-shadow: 2px 2px 2px 2px rgba(49, 49, 49, 0.18);
+    border-top: 2px solid #f63823;
+    background-image: url("../img/backg01.png");
+    display: flex;
+    font-family: "font2";
+    font-size: 1.4em;
+    color: #fdffe6;
+
+}
+.top_bar .top_left
+{
+    width: 40%;
+}
+
+.top_left img
+{
+    height: 400px;
+    padding: 7px;
+    margin-left: 13px;
+
+}
+
+.top_bar .top_right
+{
+    width: 59%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.top_bar .top_right .top_ph_gif
+{
+    width: 100%;
+}
+.top_bar .top_right .top_ph_gif .ph1
+{    width: 79%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.top_bar .top_right .top_ph_gif .ph2
+{
+    width: 100%;
+    margin: auto;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: flex-start;
+}
+
+.top_bar .top_right .top_ph_gif_item
+{
+    width:auto;
+}
+
+.top_bar .top_right .top_ph_gif_item img
+{
+width: 55px;
+}
+
+
+
+#clock
+{
+
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 475px;
+}
+#clock .clock_unit
+{
+    width: 25%;
+    text-align: center;
+}
+
+#clock .clock_unit .clock_digit p
+{
+    width:40px;
+    padding: 20px 10px;
+    border-radius: 3px;
+    background-color: #FFFFF3;
+    color: #df4949;
+    font-weight: bold;
+    margin: auto;
+}
+
+.separation_bar
+{
+    width: 100%;
+    text-align: center;
+    font-family: "font3";
+    font-size: 1.9em;
+}
+
+.footer
+{
+    width: 100%;
+    padding-top: 50px;
+}
+.footer img
+{
+    width: 100%;
+}

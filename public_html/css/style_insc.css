@@ -1,0 +1,153 @@
+.formulaire
+{
+	width: 68%;
+	height: auto;
+	display: flex;
+	flex-direction:column;
+	margin: auto;
+	margin-bottom: 50px;
+	background-color: white;
+	    box-shadow: 5px 5px 5px 5px rgba(228, 228, 228, 0.72);
+	    border: 1px solid #DEDEDE;
+	padding-bottom: 70px;
+	
+	
+}
+
+.formulaire form
+{
+	width: 80%;
+    margin: auto;
+	position: relative;
+	
+}
+
+.formulaire h1
+{
+    text-align: center;
+    font-weight: 100;
+    color: #08182B;
+    margin-bottom: 50px;
+    font-family: "Caviar Dreams";
+
+}
+
+.form_item label
+{
+	font-size: 1.3em;
+    color: #4FDABC;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.form_item
+{
+	width:100%;
+	margin-bottom: 50px;
+	overflow: hidden;
+	
+}
+
+.form_item input , .form_item select
+{	
+		width: 100%;
+	height: 28px;
+	border: 0px ;
+	margin:0;
+    color: #484747;
+    font-size: 1.4em;
+	border-bottom: 1px solid  rgb(79, 218, 188);
+	    font-family: "Caviar Dreams";
+	margin-bottom: 3px;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0);
+	
+	
+}
+
+
+
+.form_item .style_date
+{
+	
+	width: 30%;
+}
+
+.form_item .date_contenair
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+#termine
+{
+	position: absolute;
+    right:0;
+    border: 0;
+    width: 126px;
+    height: 40px;
+    background-color: #0FAF8D;
+    border-radius: 6px;
+	    box-shadow: 2px 2px 2px 2px rgba(228, 228, 228, 0.72);
+	color: #ffffff;
+	font-size: 1.05em;
+	font-weight: bolder;
+	display: none;
+
+	
+}
+#termine:hover
+{
+	color: hsl(62, 100%, 49%);
+}
+.box_conf label
+{
+font-size: 1em;
+        font-size: 1.05em;
+    color: #22A78A;
+}
+
+
+@media (min-width:601px) and (max-width: 900px) /* pour medium */
+{ 
+	.formulaire
+	{
+		width: 88%;
+	}
+}
+
+@media (min-width:100px) and (max-width: 600px) /* pour small*/
+{ 
+	.formulaire
+	{
+		width: 90%;
+		margin-top: 15px;
+	}
+	
+	.formulaire h1
+	{
+		font-size: 1.3em;
+	}
+	
+	.form_item label
+	{
+		font-size: 1.1em;
+	}
+	
+	
+	.formulaire form 
+	{
+		width: 90%;
+	}
+	
+	.form_item input, .form_item select
+	{
+		font-size: 1em;
+	}
+	
+	#termine
+	{
+		margin-top: 15px;
+	}
+}

@@ -1,0 +1,281 @@
+.slide_rech_user
+{
+    color: #4EA4DC;
+    text-align: right;
+    margin-right: 15px;
+    font-size: 1.2em;
+}
+
+
+
+.res_slide_detail {
+    color: #4EA4DC;
+    margin: 0 5px;
+    font-size: 1.1em;
+    display: inline-block;
+}
+
+.res_detail_user
+{
+ display: inline;
+}
+
+.item_user {
+    width: 100%;
+    display: block;
+    padding: 5px 0;
+}
+
+.item_user .res_img_user {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 3px 0;
+        border-radius: 50px;
+}
+.item_user .res_info_user {
+    display: inline-block;
+    margin-right: 5px;
+    color: #737373;
+    font-size: 1em;
+    width: 15%;
+    word-wrap: break-word;
+    vertical-align: top;
+}
+
+/********************************/
+
+
+
+
+.contenaire_sup
+{
+    height: auto;
+    background-color: rgba(241, 241, 241, 0.18);
+    float:none;
+    display: inline;
+    position:inherit;
+    text-align: center;
+
+    
+}
+
+.slide_sup
+{
+    text-align: right;
+    display: inline-block;
+}
+
+.slide_sup h2 {
+    margin: 0;
+    color: #E74C3C;
+    font-size: 0.85em;
+    display: inline;
+    vertical-align: middle;
+}
+.slide_sup img
+{
+    width: 30px;
+    vertical-align: middle;
+}
+
+.box_sup
+{
+    margin: auto;
+    width: 100%;
+}
+.box_sup h3 {
+    display: inline-block;
+    color: #737373;
+    font-size: 0.9em;
+    text-decoration: none;
+    font-family: "Caviar Dreams";
+    padding-right: 5px;
+}
+
+.btn_sup_oui {
+    border: 0;
+    border-radius: 6px;
+    background-color: #39B93D;
+    font-family: "Caviar Dreams";
+    padding: 3px 8px;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+
+.btn_sup_non {
+    border: 0;
+    border-radius: 6px;
+    background-color: #EA4C3C;
+    font-family: "Caviar Dreams";
+    padding: 3px 8px;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.btn_sup_oui h2
+{
+
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 0.8em;
+    display: inline;
+}
+
+.btn_sup_non h2
+{
+
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 0.8em;
+    display: inline;
+}
+
+.btn_sup_oui img , .btn_sup_non img
+{
+    width: 20px;
+    vertical-align: middle;
+}
+
+.box_sup_valide 
+{
+    margin-top: 7px;
+}
+.form_sup
+{
+    margin: 0;
+        text-align: center;
+}
+.box_sup_valide input
+{
+      padding: 9px 20px;
+    border: 0;
+    border-radius: 8px;
+    background-color: #2A81BA;
+    color: white;
+    font-size: 1em;
+    font-family: "Caviar Dreams";
+}
+
+
+
+.box_sup_valide input:focus
+{
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+
+@media (min-width:601px) and (max-width: 900px) /* pour medium */
+{ 
+/***************************************************/
+    .item_user .res_img_user {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 3px 0;
+}
+    .item_user .res_info_user {
+    display: inline-block;
+    margin: 10px 5px;
+    color: #737373;
+    font-size: 0.9em;
+    width: 20%;
+    word-wrap: break-word;
+    vertical-align: top;
+}
+    .res_slide_detail {
+    color: #4EA4DC;
+    margin: 0 5px;
+    font-size: 1em;
+    display: inline-block;
+}
+    
+    .slide_sup h2 {
+    margin: 0;
+    color: #E74C3C;
+    font-size: 0.75em;
+    display: inline;
+    vertical-align: middle;
+}
+    
+    
+    
+    
+    
+    
+/***************************************************/
+}
+
+@media (min-width:100px) and (max-width: 600px) /* pour small*/
+{ 
+/***************************************************/
+.item_user .res_info_user {
+    display: inline-block;
+    margin-right: 5px;
+    color: #737373;
+    font-size: 0.75em;
+    width: 16%;
+    word-wrap: break-word;
+    vertical-align: top;
+}
+    .res_slide_detail {
+    color: #4EA4DC;
+    margin: 0 5px;
+    font-size: 0.9em;
+    display: inline-block;
+}
+    .slide_sup h2 {
+    margin: 0;
+    color: #E74C3C;
+    font-size: 0.75em;
+    display: inline;
+    vertical-align: middle;
+}
+    .slide_sup img {
+    width: 25px;
+    vertical-align: middle;
+}
+    .box_sup h3 {
+    display: inline-block;
+    color: #737373;
+    font-size: 0.8em;
+    text-decoration: none;
+    font-family: "Caviar Dreams";
+    padding-right: 5px;
+}
+    .btn_sup_oui h2, .btn_sup_non h2 {
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 0.7em;
+    display: inline;
+}
+    .btn_sup_oui img, .btn_sup_non img {
+    width: 15px;
+    vertical-align: middle;
+}
+    .box_sup_valide input {
+    padding: 6px 15px;
+    border: 0;
+    border-radius: 8px;
+    background-color: #2A81BA;
+    color: white;
+    font-size: 0.9em;
+    font-family: "Caviar Dreams";
+}
+    
+    
+    
+    
+    
+/***************************************************/
+}
+
+
+
+

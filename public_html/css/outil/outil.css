@@ -1,0 +1,565 @@
+
+/******************** debut   box ajouter fichier et reherche fichier  ********************/
+.contenaire_ajout,.contenaire_rech
+{
+    width:100%;
+    height: auto;
+    background-color: rgba(241, 241, 241, 0.18);
+    float:none;
+    display: block;
+    position:inherit;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+        text-align: -webkit-center;
+
+}
+.contenaire_rech
+{
+    width:100%;
+    height: auto;
+    background-color: rgba(241, 241, 241, 0.18);
+    float:none;
+    display: block;
+    position:inherit;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+
+.slide_ajout
+{
+    text-align: right;
+    margin: 20px;
+}
+.slide_rech
+{
+    text-align: left;
+    margin: 20px;
+}
+
+.slide_ajout h2 , .slide_rech h2
+{
+
+    margin: 0;
+    color: #2A81BA;
+    font-size: 1.2em;
+    display: inline-block;
+}
+
+.slide_ajout img , .slide_rech img
+{
+    width: 45px;
+    vertical-align: middle;
+}
+
+.box_ajout , .box_rech
+{
+
+
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+
+
+
+}
+
+
+.box_ajout select , .box_rech select  , .nom_outil ,.fichier
+{
+    display:inline-block;
+    width: 20%;
+    padding: 6px 12px;
+    margin: 7px;
+    font-size: 1.1em;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+
+
+.box_ajout select:focus , .box_rech select:focus ,.nom_outil:focus
+{
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+.fichier
+{
+
+    display: block;
+    width: 73%;
+}
+
+.btn_partager , .btn_rech
+{    
+    padding: 9px 20px;
+    border: 0;
+    border-radius: 8px;
+    background-color: #2A81BA;
+    color: white;
+    font-size: 1em;
+    font-family: "Caviar Dreams";
+}
+
+
+
+.box_cnx form
+{
+    padding-bottom: 0px;
+    margin:0;
+}
+/******************** fin  box ajouter fichier et reherche fichier  ********************/
+
+
+
+
+/******************** debut  affichage des resultat de recherche pour fichier  ********************/
+
+.contenair_res_rech
+{
+    width: 80%;
+    margin: auto;
+}
+
+.res_item
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 5px 0;
+
+}
+
+.res_item .img_res
+{
+    width: 65px;
+    height: 65px;
+    vertical-align: middle;
+        border-radius: 5px;
+
+}
+
+.res_item h2
+{
+    display: inline;
+    color:#08182B;
+    font-size: 1.1em;
+    font-family: "Caviar Dreams";
+}
+
+.btn_telecharger , .btn_voir
+{    
+    border: 0;
+    border-radius: 8px;
+    background-color: #2A81BA;
+    font-family: "Caviar Dreams";
+        padding: 4px 10px;
+}
+.res_item a
+{
+    text-decoration: none;
+}
+
+
+
+.btn_telecharger h2 , .btn_voir h2
+{
+
+       margin: 0;
+    color: #FFFFFF;
+    font-size: 0.9em;
+}
+
+.btn_telecharger img , .btn_voir img
+{
+    width: 28px;
+    vertical-align: middle;
+}
+
+
+/******************** fin  affichage des resultat de recherche pour fichier  ********************/
+
+
+
+@media (min-width:601px) and (max-width: 900px) /* pour medium */
+{ 
+/***************************************************/
+
+/******************** debut   box ajouter fichier et reherche fichier  ********************/
+.contenaire_ajout,.contenaire_rech
+{
+    width:100%;
+    height: auto;
+    background-color: rgba(241, 241, 241, 0.18);
+    float:none;
+    display: block;
+    position:inherit;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+        text-align: -webkit-center;
+
+}
+
+.slide_ajout
+{
+    text-align: right;
+    margin: 0 20px;
+}
+.slide_rech
+{
+    text-align: left;
+    margin: 0 20px;
+}
+
+.slide_ajout h2 , .slide_rech h2
+{
+
+    margin: 0;
+    color: #2A81BA;
+    font-size: 1.05em;
+    display: inline-block;
+        font-family: "Caviar Dreams";
+    font-weight: bold;
+}
+
+.slide_ajout img , .slide_rech img
+{
+    width: 45px;
+    vertical-align: middle;
+}
+
+.box_ajout , .box_rech
+{
+
+
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+
+
+
+}
+
+
+.box_ajout select , .box_rech select  , .nom_fich ,.nom_outil , .champ_rech
+{
+    display: inline-block;
+    width: 44%;
+    padding: 5px 5px;
+    margin: 7px;
+    font-size: 0.9em;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+
+.btn_partager , .btn_rech
+{    
+    padding: 8px 12px;
+    border: 0;
+    border-radius: 8px;
+    background-color: #2A81BA;
+    color: white;
+    font-size: 0.9em;
+    font-family: "Caviar Dreams";
+}
+
+
+
+
+
+
+
+
+/******************** fin  box ajouter fichier et reherche fichier  ********************/
+
+/******************** debut  affichage des resultat de recherche pour fichier  ********************/
+
+.contenair_res_rech
+{
+    width: 98%;
+    margin: auto;
+}
+
+.res_item
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 5px 0;
+
+}
+
+.res_item .img_res
+{
+    width: 55px;
+    height: 55px;
+    vertical-align: middle;
+
+}
+
+.res_item h2
+{
+    display: inline;
+    color: #08182B;
+    font-size: 0.85em;
+    font-weight: bold;
+    padding-right: 9px;
+    font-family: "Caviar Dreams";
+}
+
+.btn_telecharger , .btn_voir
+{    
+    border: 0;
+    border-radius: 6px;
+    background-color: #2A81BA;
+    font-family: "Caviar Dreams";
+    padding: 3px 7px;
+    margin: 5px 0;
+}
+.res_item a
+{
+    text-decoration: none;
+}
+
+
+
+.btn_telecharger h2 , .btn_voir h2
+{
+
+    margin: 0;
+    color: #FFFFFF;
+    font-weight: 100;
+    font-size: 0.75em;
+    padding: 0;
+}
+
+.btn_telecharger img , .btn_voir img
+{
+    width: 22px;
+    vertical-align: middle;
+}
+
+
+/******************** fin  affichage des resultat de recherche pour fichier  ********************/
+
+
+
+    
+    
+    
+    
+    
+    
+/***************************************************/
+}
+
+
+@media (min-width:100px) and (max-width: 600px) /* pour small*/
+{ 
+/***************************************************/
+    
+/******************** debut   box ajouter fichier et reherche fichier  ********************/
+.contenaire_ajout,.contenaire_rech
+{
+    width: 100%;
+    height: auto;
+    background-color: rgba(241, 241, 241, 0.18);
+    float: none;
+    display: block;
+    position: inherit;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    text-align: center;
+    text-align: -webkit-center;
+
+}
+
+.slide_ajout
+{
+    text-align: right;
+    margin: 0 10px;
+}
+.slide_rech
+{
+    text-align: left;
+    margin: 0 10px;
+}
+
+.slide_ajout h2 , .slide_rech h2
+{
+
+    margin: 0;
+    color: #2A81BA;
+    font-size: 0.85em;
+    display: inline-block;
+    font-family: "Caviar Dreams";
+    font-weight: bold;
+}
+
+.slide_ajout img , .slide_rech img
+{
+    width: 35px;
+    vertical-align: middle;
+}
+
+.box_ajout , .box_rech
+{
+
+
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+
+
+
+}
+
+
+.box_ajout select , .box_rech select  , .nom_affichage ,.nom_outil , .champ_rech
+{
+    display: inline-block;
+    width: 86%;
+    padding: 5px 5px;
+    margin: 7px 0;
+    font-size: 0.9em;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+
+.btn_partager , .btn_rech
+{    
+    padding: 8px 9px;
+    border: 0;
+    border-radius: 8px;
+    background-color: #2A81BA;
+    color: white;
+    font-size: 0.85em;
+    font-family: "Caviar Dreams";
+}
+
+
+
+
+
+
+
+
+/******************** fin  box ajouter fichier et reherche fichier  ********************/
+
+/******************** debut  affichage des resultat de recherche pour fichier  ********************/
+
+.contenair_res_rech
+{
+    width: 100%;
+    margin: auto;
+}
+
+.res_item
+{
+
+    width: 100%;
+    margin: 0;
+    padding: 5px 0;
+
+}
+
+.res_item .img_res
+{
+    width:50px;
+    height: 50px;
+    vertical-align: middle;
+
+}
+
+.res_item h2
+{
+    display: inline;
+    color: #08182B;
+    font-size: 0.8em;
+    font-weight: bold;
+    padding-right: 9px;
+    font-family: "Caviar Dreams";
+}
+
+.btn_telecharger , .btn_voir
+{    
+    border: 0;
+    border-radius: 6px;
+    background-color: #2A81BA;
+    font-family: "Caviar Dreams";
+    padding: 3px 7px;
+    margin: 5px 0;
+}
+.res_item a
+{
+    text-decoration: none;
+}
+
+
+
+.btn_telecharger h2 , .btn_voir h2
+{
+
+    margin: 0;
+    color: #FFFFFF;
+    font-weight: 100;
+    font-size: 0.7em;
+    padding: 0;
+}
+
+.btn_telecharger img , .btn_voir img
+{
+    width: 20px;
+    vertical-align: middle;
+}
+
+
+/******************** fin  affichage des resultat de recherche pour fichier  ********************/
+
+
+
+    
+    
+    
+    
+/***************************************************/
+}
+
+
+
+
+
